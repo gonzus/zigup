@@ -29,7 +29,8 @@ zigup default <version>
 # list the installed compiler versions
 zigup list
 
-# clean compilers that are not the default, not master, and not marked to keep. when a version is specified, it will clean that version
+# clean compilers that are not the default, not master, and not marked to keep.
+# when a version is specified, it will clean that version
 zigup clean [<version>]
 
 # mark a compiler to keep
